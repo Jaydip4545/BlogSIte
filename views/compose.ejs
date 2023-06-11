@@ -1,0 +1,32 @@
+<%- include('partials/header'); -%>
+<h1>Compose</h1>
+<form action="/compose" method="post">
+    <div class="form-group">
+        
+            <label>Title</label>
+            <input type="text" class="form-control" name="postTitle">
+            <label>Post</label>
+            <textarea id="w3review" name="postContent" rows="4" cols="160">
+            </textarea>
+        
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+    
+</form>
+
+
+
+<%- include('partials/footer'); -%>
+
+
+   
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+ 
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
