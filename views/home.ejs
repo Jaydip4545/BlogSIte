@@ -1,6 +1,6 @@
 <%- include('partials/header'); -%>
 <h1>Home</h1>
-<p class="truncated"><%=homeInfo%></p>
+<p><%=homeInfo%></p>
 <%posts.forEach((post)=>{%>
     <h3><%=post["title"]%></h3>
     <p class="truncated"><%=post["content"]%></p>
